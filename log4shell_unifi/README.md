@@ -16,7 +16,7 @@ Clone the GitHub repository and install python requirements:
 ```sh
 git clone https://github.com/jb49088/poc.git \
     && cd poc/log4shell_unifi \
-    && pip install -r requirements.txt
+    && pip install -r requirements.txt --break-system-packages
 ```
 
 ### Usage
