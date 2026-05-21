@@ -11,10 +11,10 @@ Collection of demonstration exploits to prove specific vulnerabilities
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
 Python                           1             17              7             86
-Markdown                         2             16              2             32
+Markdown                         2             18              2             52
 Text                             1              0              0              1
 -------------------------------------------------------------------------------
-SUM:                             4             33              9            119
+SUM:                             4             35              9            139
 -------------------------------------------------------------------------------
 ```
 <!-- PROJECT_STRUCTURE_START -->
@@ -24,7 +24,7 @@ SUM:                             4             33              9            119
 ```
 poc
 ├── log4shell_unifi
-│   ├── log4shell_unifi.py
+│   ├── exploit.py
 │   ├── README.md
 │   └── requirements.txt
 └── README.md
