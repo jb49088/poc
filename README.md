@@ -28,7 +28,7 @@ poc
 │   ├── README.md
 │   └── requirements.txt
 ├── README.md
-└── shellshock_apache_mod_cgi_rce
+└── shellshock_apache_mod_cgi
     ├── exploit.py
     └── README.md
 
