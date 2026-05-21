@@ -23,14 +23,14 @@ SUM:                             6             63             12            241
 
 ```
 poc
-├── apache_mod_cgi_rce
-│   ├── exploit.py
-│   └── README.md
 ├── log4shell_unifi
 │   ├── exploit.py
 │   ├── README.md
 │   └── requirements.txt
-└── README.md
+├── README.md
+└── shellshock_apache_mod_cgi_rce
+    ├── exploit.py
+    └── README.md
 
 3 directories, 6 files
 ```

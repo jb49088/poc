@@ -1,4 +1,4 @@
-### apache_mod_cgi_rce
+### shellshock_apache_mod_cgi_rce
 
 Proof of concept for [CVE-2014-6271](https://nvd.nist.gov/vuln/detail/cve-2014-6271) exploit in Apache HTTP Server
 
@@ -10,7 +10,7 @@ Clone the GitHub repository and install python requirements:
 
 ```sh
 git clone https://github.com/jb49088/poc.git \
-    && cd poc/apache_mod_cgi_rce
+    && cd poc/shellshock_apache_mod_cgi_rce
 ```
 
 ### Usage
