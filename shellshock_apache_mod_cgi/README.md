@@ -6,7 +6,7 @@ Tested on [HTB: Shocker](https://app.hackthebox.com/machines/Shocker)
 
 ### Installation
 
-Clone the GitHub repository and install python requirements:
+Clone the GitHub repository:
 
 ```sh
 git clone https://github.com/jb49088/poc.git \
