@@ -1,4 +1,4 @@
-### shellshock_apache_mod_cgi
+### shellshock_apache
 
 Proof of concept for [CVE-2014-6271](https://nvd.nist.gov/vuln/detail/cve-2014-6271) exploit in Apache HTTP Server
 
@@ -9,8 +9,8 @@ Tested on [HTB: Shocker](https://app.hackthebox.com/machines/Shocker)
 Clone the GitHub repository:
 
 ```sh
-git clone https://github.com/jb49088/poc.git \
-    && cd poc/shellshock_apache_mod_cgi
+git clone https://github.com/jsec02/poc.git \
+    && cd poc/shellshock_apache
 ```
 
 ### Usage
