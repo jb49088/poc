@@ -23,14 +23,14 @@ SUM:                             6             63             12            242
 
 ```
 poc
-├── log4shell_unifi
+├── cve-2014-6271_shellshock_apache
+│   ├── exploit.py
+│   └── README.md
+├── cve-2021-44228_log4shell_unifi
 │   ├── exploit.py
 │   ├── README.md
 │   └── requirements.txt
-├── README.md
-└── shellshock_apache
-    ├── exploit.py
-    └── README.md
+└── README.md
 
 3 directories, 6 files
 ```
