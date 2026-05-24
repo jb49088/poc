@@ -26,7 +26,7 @@ poc
 ├── cve-2014-6271_shellshock_apache
 │   ├── exploit.py
 │   └── README.md
-├── cve-2016-10709_rce_pfsense
+├── cve-2016-10709_command_injection_pfsense
 │   ├── exploit.py
 │   ├── README.md
 │   └── requirements.txt
